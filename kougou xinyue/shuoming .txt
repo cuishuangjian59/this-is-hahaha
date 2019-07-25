@@ -1,0 +1,1 @@
+npm i  装服务   npm run serve 启动服务
