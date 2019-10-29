@@ -1,0 +1,143 @@
+.bigbox{
+    background: #eaedf1;
+}
+.content{
+    background: #fff;
+    padding:15px;
+}
+.filterForm {
+    padding: 30px 0;
+  
+  }
+  .card-list{
+    border:1px solid #ccc;
+    font-size: 12px;
+    color: #1D2024;
+    .headerRow{
+        border-bottom:1px solid #ccc;
+        background:#F6F6F6;
+        line-height: 50px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+   
+    .leftRow{
+        padding: 0px 20px;
+        margin: 10px auto;
+        .cardspan{
+            margin:'10px'
+        }
+    }
+    .buttonRow{
+        text-align: center;
+        .btn{
+            line-height: 40px
+        };
+        border-left:1px solid #ccc;
+        margin: 10px auto;
+    }
+
+    .btnStyle {
+        border-top: 1px solid #ccc;
+        border-bottom: 1px solid #ccc;
+        margin: 0px 10px;
+    }
+    .BorderRow{
+        border:none;
+        .BorderCol{
+            border:none;
+        }
+    }
+}
+.drawer {
+    :global {
+     .ant-drawer-header{
+         border:none
+     }
+     .ant-drawer-body{
+         padding:20px 0
+     }
+    }
+    .pone{
+        font-size:18px;
+        font-weight: 600
+    }
+    .spanone{
+        font-size:16px;
+        font-weight: normal;
+        margin-left:100px
+    }
+  
+   
+  }
+
+  .btn{
+    border-radius:0;
+    border-color:#0078E7;
+    background-color:#0078E7
+   }
+   .container > .ant-tabs-card > .ant-tabs-content {
+    height: 120px;
+    margin-top: -16px;
+  }
+  
+  .container > .ant-tabs-card > .ant-tabs-content > .ant-tabs-tabpane {
+    background: #ccc;
+    padding: 16px;
+  }
+  
+  .container > .ant-tabs-card > .ant-tabs-bar {
+    border-color: #ccc;
+  }
+  
+  .container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab {
+    border-color: transparent;
+    background: transparent;
+    border-radius: 0;
+    
+  }
+  
+.container > .ant-tabs-card > .ant-tabs-bar .ant-tabs-tab-active {
+    border-color: #fff;
+    background: #fff;
+    
+  }
+  
+  .container{
+   
+      :global{
+       
+        .ant-tabs-bar{
+            background: #ccc;
+           
+            .ant-tabs-nav-container{
+               
+               height: 100px !important;
+                .ant-tabs-nav{
+                
+                    .ant-tabs-tab{
+                        
+                        border-radius: 0;
+                        margin-right:0;
+                        background:#ccc;
+                        border:none;
+                        height: 100px;
+                        width:160px;
+                        text-align: center;
+                        line-height: 100px
+                    }
+                    .ant-tabs-tab-active{
+                        background:#fff;
+                        border:none;
+                        height: 100px;
+                        width:160px
+                    }
+                } 
+            }
+            
+        }
+      }
+              
+       
+      
+  }
